@@ -1,0 +1,12 @@
+#you might have to install ibatlas-base-dev via apt-get, 
+#if you use linux before installation of numpy
+ipython==8.13.2
+ipykernel==6.23.1
+numpy==1.19.5
+obd==0.7.1
+PyAudio==0.2.13
+pyttsx==1.1
+pyttsx3==2.90
+pytz==2023.3
+bluepy==1.3.0
+
