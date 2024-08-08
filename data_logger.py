@@ -119,7 +119,7 @@ class measurement_ELM327:
         return message
 
 
-    def butterlowpass(x, fpass, fstop, gpass, gstop, fs, dt, checkflag, labelname='Signal[-]'):
+    def butterlowpass(self, x, fpass, fstop, gpass, gstop, fs, dt, checkflag, labelname='Signal[-]'):
 
         print('Applying filter against: {0}...'.format(labelname))
         fn = 1 / (2 * dt)
