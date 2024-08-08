@@ -155,7 +155,7 @@ class measurement_ELM327:
         self.meas_start_time = time.time()#Logic start time
         self.IsStart = True
         self.IsStop = False
-        self.IsShow = False
+        self.IsShow = True
         
         try: 
             while (self.IsStart and self.connection.status() == obd.OBDStatus.CAR_CONNECTED) or self.is_offline:
